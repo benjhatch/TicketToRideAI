@@ -1,9 +1,7 @@
-from Game.Board import Board
+from Game.Game import Game
 
 def main():
-   board = Board()
-   print()
-   board.getConnections()
+   game = Game()
    print()
 
 # Using the special variable 
